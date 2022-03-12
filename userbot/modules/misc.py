@@ -19,7 +19,7 @@ from PIL import Image
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = str(
-    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/muhammadrizky16/Kyy-Userbot"
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/Jaaxson/Kyy-Userbot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -85,7 +85,7 @@ async def killdabot(event):
 async def reedme(e):
     await edit_or_reply(e,
                         "Here's Something for You to Read :\n"
-                        "\n[✨ Kyy-Userbot Repo](https://github.com/muhammadrizky16/Kyy-Userbot/blob/Kyy-Userbot/README.md)"
+                        "\n[✨ Kyy-Userbot Repo](https://github.com/Jaaxson/Kyy-Userbot/blob/Kyy-Userbot/README.md)"
                         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
                         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,11 +110,11 @@ async def repo_is_here(wannasee):
     await edit_or_reply(wannasee,
                         "**Hey**, I am using **✨ҡʏʏ-υѕєявσт✨** \n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)\n"
+                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Jaaxson/Kyy-Userbot)\n"
                         "➣ **Owner Bot       :** [ҡʏʏ](t.me/IDnyaKosong)\n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/NastySupportt)\n"
-                        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/NastyProject)\n"
+                        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/J_X_S9)\n"
+                        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/J_X_S3)\n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
                         )
 
