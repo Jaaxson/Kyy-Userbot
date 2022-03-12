@@ -434,7 +434,6 @@ except Exception as e:
 async def checking():
     gocheck = str(pybase64.b64decode("QE5hc3R5UHJvamVjdA=="))[2:15]
     checker = str(pybase64.b64decode("QE5hc3R5U3VwcG9ydHQ="))[2:16]
-    checker2 = str(pybase64.b64decode("QGFoaHN1ZGFobGFoaGg="))[2:16]
     try:
         await bot(GetSec(gocheck))
     except BaseException:
@@ -443,17 +442,13 @@ async def checking():
         await bot(GetSec(checker))
     except BaseException:
         pass
-    try:
-        await bot(GetSec(checker2))
-    except BaseException:
-        pass
 
 with bot:
     try:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @NastySupportt and Channel @NastyProject to see the updates of userbot"
+            "Join Support Group @NastySupportt and Channel @J_X_S3 to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -761,13 +756,13 @@ with bot:
                 result = builder.article(
                     title="✨ ҡʏʏ-υѕєявσт ✨",
                     description="Kyy - Userbot | Telethon",
-                    url="https://t.me/NastyProject",
+                    url="https://t.me/J_X_S3",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Kyy-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @NastyProject\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Kyy-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @J_X_S3\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
